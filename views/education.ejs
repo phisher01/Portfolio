@@ -1,0 +1,209 @@
+<%- include("includes/base.ejs")%>
+<style>
+
+h1 {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    color: #080808;
+    -webkit-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+  }
+  
+  h1 span {
+    display: block;
+    font-size: 0.5em;
+    line-height: 1.3;
+  }
+  h1 em {
+    font-style: normal;
+    font-weight: 600;
+  }
+
+/* === HEADING STYLE #1 === */
+.one h2 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(218, 238, 255);
+  text-align: center;
+  /* text-transform: uppercase; */
+  padding-bottom: 5px;
+}
+
+.one h2:after {
+  width: 80%;
+  height: 1px;
+  display: block;
+  content: "";
+  position: relative;
+  margin-top: 25px;
+  left: 50%;
+  margin-left: -600px;
+  background-color: rgb(30, 164, 9);
+} 
+
+.two{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.two img{
+    height: 110px;
+    width: 110px;
+}
+
+.two h1 {
+    font-size: 25px;
+  text-transform: capitalize;
+  color: whitesmoke;
+  display: inline;
+  margin-left: 20px;
+}
+.two h1:before {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 60px;
+  height: 2px;
+  content: "";
+  background-color: #fffefe;
+}
+
+.two h1 span {
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  line-height: 3em;
+  padding-left: 0.25em;
+  color: rgba(255, 255, 255, 0.4);
+  padding-bottom: 10px;
+}
+
+.score {
+  font-size: 15px;
+  margin-left: 130px;
+  font-weight: 100;
+  /* text-transform: uppercase; */
+  letter-spacing: 2px;
+  line-height: 3em;
+  padding-left: 0.25em;
+  color: rgb(218, 238, 255);
+  padding-bottom: 10px;
+}
+.alt-two h1 {
+  text-align:center;
+}
+.alt-two h1:before {
+  left:50%; margin-left:-30px;
+}
+.colg{
+    display: flex;
+    /* width: 50%;
+     */
+     align-items: center;
+     /* justify-content:; */
+    
+}
+main hr{
+            /* background-color: blue; */
+            /* color: blue; */
+            border: 0;
+            background: rgb(98, 173, 144);
+            height: 1px;
+            margin: 40px 60px;
+
+        }
+   .quali img{
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 25% ; 
+    width: 35%; 
+    margin-left: 100px;
+  }
+  .cbse img {
+    height: 130px;
+    width: 130px;
+
+    
+  }
+  </style>
+
+  <div class="one">
+    <h2>Academics & Qualifications</h2>
+  </div>
+
+
+  
+<div class="two">
+    <span class="colg">
+    <img src="/includes/png.png" alt="not available">
+        
+        <h1>J.C.Bose University of Science & Technology ,YMCA ,Faridabad,Haryana
+            <span>(A Haryana state Government University)</span>
+            <!-- <span>Example Tagline Text</span>/ -->
+        </h1>
+    </span  >
+    <span class="score">| B.Tech -Computer Engineering | 4<sup>th </sup>-Year | CGPA:7.2 | Batch- 2025 |
+    </span>
+  </div>
+  <hr>
+  
+<div class="two">
+    <span class="colg">
+    <img src="/includes/jee.png" alt="not available">
+        
+        <h1>Secured a competitive rank in jEE main 
+            <span>(Qualified for JEE Advanced)</span>
+            <!-- <span>Example Tagline Text</span>/ -->
+          </h1>
+        </span  >
+        <!-- <span class="score">| B.Tech -Computer Engineering | 4<sup>th </sup>-Year | CGPA:7.2 | Batch- 2025 | -->
+        <!-- </span> -->
+         <div class ="quali">
+           <img   src="/includes/quali.jpg" alt="">
+        </div>
+        
+
+  </div>
+  <hr>
+   
+<div class="two">
+  <span class="colg">
+    <span class="cbse">
+
+      <img src="/includes/cbse.png" alt="not available">
+    </span>
+      
+      <h1>Central Board of Secondary Education 
+          <span>( All India Senior School Examination)</span>
+          <!-- <span>Example Tagline Text</span>/ -->
+      </h1>
+  </span  >
+  <span class="score">| Percentage: 91.2 | Subjects: Phy/Chem/Maths/Eng/Com.Science | Institute: Vidya Niketan School,  Faridabad | Batch- 2021 |
+  </span>
+</div>
+<hr>
+   
+<div class="two">
+  <span class="colg">
+    <span class="cbse">
+
+      <img src="/includes/cbse.png" alt="not available">
+    </span>
+      
+      <h1>Central Board of Secondary Education 
+          <span>( All India Secondary School Examination)</span>
+          <!-- <span>Example Tagline Text</span>/ -->
+        </h1>
+      </span  >
+      <!-- <div class="score">( All India Secondary School Examination)</div> -->
+  <span class="score">| Percentage: 92 | Subjects: Maths/Science/Social.Science/Eng/IT/Hindi | Institute: Vidya Niketan School,  Faridabad | Batch- 2019 |
+  </span>
+</div>
+<hr>
+  
+  
