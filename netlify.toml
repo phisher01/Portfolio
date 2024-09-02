@@ -1,8 +1,8 @@
 [build]
-  command = "npm install"
+  command = "node index.js"
   publish = "/"
   base ="/"
-  
+
 [start]
 command="node index.js"
 
