@@ -2,6 +2,9 @@
   command = "npm install"
   publish = "/"
   base ="/"
+  
+[start]
+command="node index.js"
 
 [[redirects]]
   from = "/*"
