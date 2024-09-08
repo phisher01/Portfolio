@@ -27,3 +27,7 @@ app.get("/otherprofiles",(req,res)=>{
    
     res.render("profiles.ejs");
 });
+app.get("/certifications",(req,res)=>{
+    // res.send("success");
+    res.render("certificate.ejs");  
+});
