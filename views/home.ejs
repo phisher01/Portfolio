@@ -3,6 +3,7 @@
     @import url("https://pro.fontawesome.com/releases/v6.0.0-beta1/css/all.css");
 @import url("https://fonts.googleapis.com/css2?family=Jura:wght@500;600;900&display=swap");
 
+
 *,
 *::before,
 *::after {
@@ -115,6 +116,41 @@ ul li {
   color: var(--color);
 }
 
+
+.eight h2{
+  position: relative;
+  padding: 0;
+  margin: 0;
+  font-family: "Raleway";
+  font-weight: 300;
+  font-size: 40px;
+  /* color: #51eaef; */
+  color: rgb(128, 196, 239);
+  -webkit-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+}
+
+
+.eight h2 {
+  text-align:center;
+ 
+  text-transform:uppercase;
+  font-size:26px; letter-spacing:1px;
+  
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  grid-template-rows: 16px 0;
+  grid-gap: 22px;
+}
+
+.eight h2:after,.eight h2:before {
+  content: " ";
+  display: block;
+  border-bottom: 2px solid #ccc;
+  background-color: #071414;
+  /* background-color: #ffc0cb; */
+}
 </style>
         <section class="secondsection">
             <span class="text-grey">What 
@@ -122,7 +158,9 @@ ul li {
             </span>
             <h1>Technologies Explored</h1>
             <div class="box">
-               
+       <div class="eight">
+                <h2>Frontend Tech-</h2>
+          </div>         
     <ul>
         <li style="--accent-color:#f20071">
             <div class="icon"><i class="fa-brands fa-html5"></i></div>
@@ -145,11 +183,12 @@ ul li {
             <div class="title">Javascript</div>
             <div class="descr">Javascript is there to make website working and dynamic.Js add functionalities and all features .</div>
         </li>
-        <li style="--accent-color:#994D7F">
-            <div class="icon"><i class="fa-brands fa-git"></i></div>
-            <div class="title">Git</div>
-            <div class="descr">Version control for tracking changes in my works and working in collaborations with team.</div>
-        </li>
+        </ul>
+        <div class="eight">
+          <h2>Backend  Tech-</h2>
+    </div>    
+        <ul>
+              
        <li style="--accent-color:#990D7F">
             <div class="icon"><i class="fa-brands fa-node"></i></div>
             <div class="title">Node.js</div>
@@ -162,50 +201,94 @@ ul li {
             <div class="title">Express.js</div>
             <div class="descr">JS Framework for creating & managing  servers/routes for my website</div>
         </li>
-      <li style="--accent-color:#FF00FF">
-            <div class="icon">
-              <img src="https://www.svgrepo.com/show/373574/ejs.svg">
-            </div>
-            <div class="title">EJs</div>
-            <div class="descr">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+        <li style="--accent-color:#ffc0cb">
+          <div class="icon">
+            <img src="https://www.svgrepo.com/show/373574/ejs.svg">
+          </div>
+          <div class="title">EJS</div>
+          <div class="descr">(Embedded JavaScript templates) are used to generate files for rendering whenever a request hits on some route</div>
+    </li>
+        <li style="--accent-color:#CA8042">
+          <div class="icon"><img src="https://cdn-icons-png.flaticon.com/128/8297/8297437.png" alt=""></div>
+      
+          <div class="title">RESTful APIs</div>
+          <div class="descr">For creating routes and receiving all backend requests acc to REST</div>
       </li>
+      <li style="--accent-color:#51eaef">
+        <div class="icon"><img src="https://cdn-icons-png.flaticon.com/128/16845/16845837.png" alt=""></div>
+  
+        <div class="title">MySQL</div>
+        <div class="descr"> For storing and managing all data </div>
+    </li>
+      <li style="--accent-color:#9a24b2">
+        <div class="icon"><img src="/includes/Mongo.png" alt=""></div>
+        <div class="title">MongoDB</div>
+        <div class="descr"> For storing and managing all data </div>
+    </li>
+  </ul>
+  <div class="eight">
+    <h2>  Cloud Services used for hosting -</h2>
+</div>   
+    <ul>
+      <li style="--accent-color:#071414">
+        <div class="icon"><img src="/includes/netlify.svg" alt=""></div>
+        <div class="title">Netlify</div>
+        <div class="descr"> Frontend projects is hosted on Netlify.</div>
+    </li>
+      <li style="--accent-color:#f8f8f8">
+        <div class="icon"><img src="/includes/render.png" alt=""></div>
+        <div class="title">Render</div>
+        <div class="descr"> Full stack  projects is hosted on Render.</div>
+    </li>
+     
+    
+
+      
+  
+    </ul>
+    
+    <div class="eight">
+      <h2> Version Control-</h2>
+</div>    
+    <ul>
+      
       <li style="--accent-color:#808000">
             <div class="icon"><i class="fa-brands fa-github"></i></div>
             <div class="title">github</div>
-            <div class="descr">Frameworks used for designing and styling HTML elements</div>
+            <div class="descr">All code and  resources of projects is uploaded on Github</div>
         </li>
+        <li style="--accent-color:#994D7F">
+          <div class="icon"><i class="fa-brands fa-git"></i></div>
+          <div class="title">Git</div>
+          <div class="descr">Version control for tracking changes in my works and working in collaborations with team.</div>
+      </li>
+    </ul>
+    <div class="eight">
+      <h2> Programming Essentials-</h2>
+</div>    
+      <ul>
+        
         <li style="--accent-color:#008080">
           <div class="icon"><i class="fa-brands fa-java"></i></div>
           <div class="title">Java</div>
-          <div class="descr">Frameworks used for designing and styling HTML elements</div>
+          <div class="descr">Programming language used for solving DSA problems</div>
       </li>
-      <li style="--accent-color:#008080">
+      <li style="--accent-color:#306280">
         <div class="icon"><img src="https://cdn-icons-png.flaticon.com/128/3137/3137927.png" alt=""></div>
         <div class="title">DSA</div>
-        <div class="descr">Frameworks used for designing and styling HTML elements</div>
+        <div class="descr">Data structures & Algorithms</div>
     </li>
 
     <li style="--accent-color:#FA8072">
       <div class="icon"><img src="https://cdn-icons-png.flaticon.com/128/9261/9261774.png" alt=""></div>
 
       <div class="title">OOPs</div>
-      <div class="descr">Frameworks used for designing and styling HTML elements</div>
+      <div class="descr">Objects and Classes Concepts</div>
   </li>
   
-  <li style="--accent-color:#CA8042">
-    <div class="icon"><img src="https://cdn-icons-png.flaticon.com/128/8297/8297437.png" alt=""></div>
+  
 
-    <div class="title">RESTful APIs</div>
-    <div class="descr">For creating routes and receiving all backend requests acc to REST</div>
-</li>
-
-    <li style="--accent-color:#A1D6B2">
-      <div class="icon"><img src="https://cdn-icons-png.flaticon.com/128/16845/16845837.png" alt=""></div>
-
-      <div class="title">SQL</div>
-      <div class="descr"> For storing and managing all data </div>
-  </li>
-
+    
 
   
         
