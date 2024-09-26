@@ -1,5 +1,188 @@
 <%- include("includes/base.ejs")%>
 
+<style>
+    
+    h1 {
+        position: relative;
+        padding: 0;
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    color: #080808;
+    -webkit-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+
+h1 span {
+    display: block;
+    font-size: 0.5em;
+    line-height: 1.3;
+}
+h1 em {
+    font-style: normal;
+    font-weight: 600;
+}
+
+/* === HEADING STYLE #1 === */
+.one h2 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(218, 238, 255);
+    text-align: center;
+    /* text-transform: uppercase; */
+    padding-bottom: 5px;
+    }
+    
+    .one h2:after {
+        width: 80%;
+        height: 1px;
+        display: block;
+        content: "";
+        position: relative;
+        margin-top: 25px;
+        left: 50%;
+        margin-left: -600px;
+        background-color: rgb(30, 164, 9);
+    } 
+    .profiles{
+        /* margin-left: 2rem; */
+        /* margin-right: 2rem; */
+        display: flex;
+        justify-content:center;
+        align-items:start;
+        /* height: 100vh; */
+        /* border: 2px solid rgb(255, 255, 255) ; */
+        flex-wrap: wrap;
+        
+    }
+    .card{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+       font-weight: 200;
+      background-color: rgb(7, 20, 20);
+     
+        margin:1rem 1rem;
+        
+        width: 30%  ;
+        height: 16rem;
+border-radius: 20px;
+border: 1px solid grey;
+
+ } 
+ .card img{ 
+    height: 16rem;
+    /* padding: 2rem; */
+    /* margin-top: 1rem; */
+    border-radius: 20px;    
+    /* border: 1px solid aliceblue;  */
+      
+    }  
+    .card-body{
+        color: rgb(218, 238, 255);
+    }
+    .card-img-top{
+        opacity: 0.5;
+
+    }
+    .visit{
+        position: absolute;
+        bottom: 20px;
+
+    }.card-text{
+        position:absolute;
+        bottom: 60px;
+    }
+    .card:hover{
+      
+        /* font-size:-large; */
+      background-color: rgb(13, 36, 36);
+     
+        color: rgb(218, 238,255);
+
+    
+    }
+    </style>
+
+
+<div class="one">
+    <h2>Social Media Accounts & Other Profiles</h2>
+</div>
+
+<div class="profiles  ">
+
+
+
+
+
+
+    
+
+    <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5fTvBqEpyLmHNzZVx0YlKR5wOxFoLRAtZxA&s" class="card-img-top" alt="...">
+        <div class="card-img-overlay">
+            <div class="card-body">
+
+                <h4 class="card-title">GitHub</h4>
+                <p class="card-text">Here’s where my code lives—projects, experiments, and the tools that shape my development journey.</p>
+                <div class="visit"><a href="https://github.com/phisher01" class="btn btn-primary">Check Inside</a></div>
+              </div>
+        </div>
+      </div>
+    <div class="card">
+        <img src="https://c0.lestechnophiles.com/www.numerama.com/wp-content/uploads/2018/08/insta-une-680x383.jpg?resize=500,281&key=1aa54547" class="card-img-top" alt="...">
+        <div class="card-img-overlay">
+            <div class="card-body">
+
+                <h4 class="card-title">Instagram</h4>
+                <p class="card-text">Step into my personal world—photos, stories, and moments that define me beyond the code.</p>
+                <div class="visit"><a href="https://www.instagram.com/singh_gagan.01/" class="btn btn-primary">Check Inside</a></div>
+              </div>
+        </div>
+      </div>
+    <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9r6PsmfEhGWTV7rvCG1WGa7NN24hbIIPlkA&s"" class="card-img-top" alt="...">
+        <div class="card-img-overlay">
+            <div class="card-body">
+
+                <h4 class="card-title">Render</h4>
+                <p class="card-text">Check out my deployed projects in action! This is where my code comes to life on the web.</p>
+                <div class="visit"><a href="https://dashboard.render.com/" class="btn btn-primary">Check Inside</a></div>
+              </div>
+        </div>
+      </div>
+    <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbxAHuTbuw3ULCR_RjaT3KggueU2QKanR9QA&s" class="card-img-top" alt="...">
+        <div class="card-img-overlay">
+            <div class="card-body">
+
+                <h4 class="card-title">Linkedin</h4>
+                <p class="card-text">Let’s connect professionally and build something amazing! Engineering ideas and making them real.</p>
+                <div class="visit"><a href="https://www.linkedin.com/in/gagan-pratap-singh-841954318/" class="btn btn-primary">Check Inside</a></div>
+              </div>
+        </div>
+      </div>
+    
+      <div class="card">
+        <img src="https://leetcode.com/static/images/LeetCode_Sharing.png" class="card-img-top" alt="...">
+        <div class="card-img-overlay">
+            <div class="card-body">
+
+                <h4 class="card-title">Leetcode</h4>
+                <p class="card-text">Join me on my problem-solving journey! Here’s where I tackle coding challenges and sharpen my algorithmic skills.</p>
+                <div class="visit"><a href="https://leetcode.com/u/gsgagan2003/" class="btn btn-primary">Check Inside</a></div>
+              </div>
+        </div>
+      </div>
+
+
+      
+      
+      
+      
+      
+    </div>
+    
+    <hr>
    
 
 
